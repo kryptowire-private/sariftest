@@ -52,7 +52,9 @@
                   "snippet": {
                     "text": ".entry public Lcom/dropboxchmod/DropboxChmodService;->onStartCommand(Landroid/content/Intent;II)I p0, p1, p2, p3"
                   },
+                  "endColumn": 104,
                   "endLine": 56,
+                  "startColumn": 102,
                   "startLine": 56
                 },
                 "artifactLocation": {
@@ -78,7 +80,9 @@
                             "snippet": {
                               "text": ".entry public Lcom/dropboxchmod/DropboxChmodService;->onStartCommand(Landroid/content/Intent;II)I p0, p1, p2, p3"
                             },
+                            "endColumn": 104,
                             "endLine": 56,
+                            "startColumn": 102,
                             "startLine": 56
                           },
                           "artifactLocation": {
@@ -99,7 +103,9 @@
                             "snippet": {
                               "text": "invoke-direct {v1,p0,p1}, Lcom/dropboxchmod/DropboxChmodService$1;-><init>(Lcom/dropboxchmod/DropboxChmodService;Landroid/content/Intent;)V"
                             },
+                            "endColumn": 23,
                             "endLine": 70,
+                            "startColumn": 21,
                             "startLine": 70
                           },
                           "artifactLocation": {
@@ -120,7 +126,9 @@
                             "snippet": {
                               "text": ".entry constructor Lcom/dropboxchmod/DropboxChmodService$1;-><init>(Lcom/dropboxchmod/DropboxChmodService;Landroid/content/Intent;)V p0, p1, p2"
                             },
+                            "endColumn": 143,
                             "endLine": 24,
+                            "startColumn": 141,
                             "startLine": 24
                           },
                           "artifactLocation": {
@@ -141,7 +149,32 @@
                             "snippet": {
                               "text": "iput-object p2, p0, Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;"
                             },
+                            "endColumn": 14,
                             "endLine": 33,
+                            "startColumn": 12,
+                            "startLine": 33
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "data flows to `Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;` at line 33",
+                          "markdown": "data flows to `Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;` at line 33"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": "iput-object p2, p0, Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;"
+                            },
+                            "endColumn": 93,
+                            "endLine": 33,
+                            "startColumn": 20,
                             "startLine": 33
                           },
                           "artifactLocation": {
@@ -171,15 +204,40 @@
                     {
                       "location": {
                         "message": {
-                          "text": "data flows to `p0->Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;` at line 52",
-                          "markdown": "data flows to `p0->Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;` at line 52"
+                          "text": "data flows to `Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;` at line 52",
+                          "markdown": "data flows to `Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;` at line 52"
                         },
                         "physicalLocation": {
                           "region": {
                             "snippet": {
                               "text": "iget-object v4, p0, Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;"
                             },
+                            "endColumn": 93,
                             "endLine": 52,
+                            "startColumn": 20,
+                            "startLine": 52
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "data flows to `v4` at line 52",
+                          "markdown": "data flows to `v4` at line 52"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": "iget-object v4, p0, Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;"
+                            },
+                            "endColumn": 14,
+                            "endLine": 52,
+                            "startColumn": 12,
                             "startLine": 52
                           },
                           "artifactLocation": {
@@ -200,7 +258,9 @@
                             "snippet": {
                               "text": "invoke-virtual {v4,v5}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;"
                             },
+                            "endColumn": 18,
                             "endLine": 56,
+                            "startColumn": 16,
                             "startLine": 56
                           },
                           "artifactLocation": {
@@ -213,15 +273,17 @@
                     {
                       "location": {
                         "message": {
-                          "text": "data flows to `r0` at line 58",
-                          "markdown": "data flows to `r0` at line 58"
+                          "text": "data flows to `v0` at line 58",
+                          "markdown": "data flows to `v0` at line 58"
                         },
                         "physicalLocation": {
                           "region": {
                             "snippet": {
                               "text": "move-result-object v0"
                             },
+                            "endColumn": 21,
                             "endLine": 58,
+                            "startColumn": 19,
                             "startLine": 58
                           },
                           "artifactLocation": {
@@ -242,7 +304,9 @@
                             "snippet": {
                               "text": "invoke-virtual {v3,v0}, Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;"
                             },
+                            "endColumn": 21,
                             "endLine": 138,
+                            "startColumn": 19,
                             "startLine": 138
                           },
                           "artifactLocation": {
