@@ -1,0 +1,342 @@
+{
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "doppler",
+          "rules": [
+            {
+              "id": "commexec-local",
+              "help": {
+                "text": "Externally-controlled input used to construct all or part of a system command.\n"
+              },
+              "name": "commexec-local",
+              "fullDescription": {
+                "text": "Externally-controlled input used to construct all or part of a system command.\n"
+              },
+              "shortDescription": {
+                "text": "Command Execution"
+              }
+            }
+          ],
+          "semanticVersion": "unknown"
+        }
+      },
+      "artifacts": [
+        {
+          "hashes": {},
+          "location": {
+            "uri": "file:///Users/user/Workspace/asat-doppler/src/tata/sariftest/src"
+          }
+        }
+      ],
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "results": [
+        {
+          "message": {
+            "text": "Externally-controlled input used to construct all or part of a system command.\n"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "message": {
+                "text": "p1"
+              },
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": ".entry public Lcom/dropboxchmod/DropboxChmodService;->onStartCommand(Landroid/content/Intent;II)I p0, p1, p2, p3"
+                  },
+                  "endLine": "56",
+                  "startLine": "56"
+                },
+                "artifactLocation": {
+                  "uri": "src/com/dropboxchmod/DropboxChmodService.smali",
+                  "uriBaseId": "SRCROOT"
+                }
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "message": {
+                          "text": "p1"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": ".entry public Lcom/dropboxchmod/DropboxChmodService;->onStartCommand(Landroid/content/Intent;II)I p0, p1, p2, p3"
+                            },
+                            "endLine": "56",
+                            "startLine": "56"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "p1"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": "invoke-direct {v1,p0,p1}, Lcom/dropboxchmod/DropboxChmodService$1;-><init>(Lcom/dropboxchmod/DropboxChmodService;Landroid/content/Intent;)V"
+                            },
+                            "endLine": "70",
+                            "startLine": "70"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "p2"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": ".entry constructor Lcom/dropboxchmod/DropboxChmodService$1;-><init>(Lcom/dropboxchmod/DropboxChmodService;Landroid/content/Intent;)V p0, p1, p2"
+                            },
+                            "endLine": "24",
+                            "startLine": "24"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "p2"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": "iput-object p2, p0, Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;"
+                            },
+                            "endLine": "33",
+                            "startLine": "33"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "p0->Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": "iput-object p2, p0, Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;"
+                            },
+                            "endLine": "33",
+                            "startLine": "33"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": null
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": ".field final synthetic Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;"
+                            },
+                            "endLine": "20",
+                            "startLine": "20"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "p0->Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": "iget-object v4, p0, Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;"
+                            },
+                            "endLine": "72",
+                            "startLine": "72"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "v4"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": "iget-object v4, p0, Lcom/dropboxchmod/DropboxChmodService$1;->val$it:Landroid/content/Intent;"
+                            },
+                            "endLine": "72",
+                            "startLine": "72"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "v4"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": "invoke-virtual {v4}, Landroid/content/Intent;->getAction()Ljava/lang/String;"
+                            },
+                            "endLine": "74",
+                            "startLine": "74"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "r0"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": "invoke-virtual {v4}, Landroid/content/Intent;->getAction()Ljava/lang/String;"
+                            },
+                            "endLine": "74",
+                            "startLine": "74"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "r0"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": "move-result-object v0"
+                            },
+                            "endLine": "76",
+                            "startLine": "76"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "v0"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": "move-result-object v0"
+                            },
+                            "endLine": "76",
+                            "startLine": "76"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "v0"
+                        },
+                        "physicalLocation": {
+                          "region": {
+                            "snippet": {
+                              "text": "invoke-virtual {v3,v0}, Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;"
+                            },
+                            "endLine": "138",
+                            "startLine": "138"
+                          },
+                          "artifactLocation": {
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "id": "entrypoints ->d sinks"
+                }
+              ]
+            }
+          ],
+          "ruleId": "commexec-local"
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json"
+}
