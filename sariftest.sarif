@@ -49,7 +49,8 @@
                   "startLine": 56
                 },
                 "artifactLocation": {
-                  "uri": "file:///com/dropboxchmod/DropboxChmodService.smali"
+                  "uri": "src/com/dropboxchmod/DropboxChmodService.smali",
+                  "uriBaseId": "SRCROOT"
                 }
               }
             }
@@ -67,7 +68,8 @@
                             "startLine": 56
                           },
                           "artifactLocation": {
-                            "uri": "file:///com/dropboxchmod/DropboxChmodService.smali"
+                            "uri": "src/com/dropboxchmod/DropboxChmodService.smali",
+                            "uriBaseId": "SRCROOT"
                           }
                         }
                       }
@@ -80,7 +82,8 @@
                             "startLine": 24
                           },
                           "artifactLocation": {
-                            "uri": "file:///com/dropboxchmod/DropboxChmodService%241.smali"
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
                           }
                         }
                       }
@@ -93,7 +96,8 @@
                             "startLine": 20
                           },
                           "artifactLocation": {
-                            "uri": "file:///com/dropboxchmod/DropboxChmodService%241.smali"
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
                           }
                         }
                       }
@@ -106,7 +110,8 @@
                             "startLine": 52
                           },
                           "artifactLocation": {
-                            "uri": "file:///com/dropboxchmod/DropboxChmodService%241.smali"
+                            "uri": "src/com/dropboxchmod/DropboxChmodService$1.smali",
+                            "uriBaseId": "SRCROOT"
                           }
                         }
                       }
